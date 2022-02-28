@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    padding: 1vh;
+    font-family: Proxima-nova;
+    font-family: 'Pacifico', cursive;
+}
+.img-status{
+    height: 10vh;
+    margin: 2vh
+}
+.post{
+    margin-top: 5vh;
+    margin-left: 25vw;
+    font-size: 3vh;
+}
+.user{
+    width: 5vh;
+    height: 5vh;
+}
+.user-ico{
+    width: 3vh;
+    height: 3vh;
+}
+.foto{
+    width: 50%;
+    height: 50%;
+}
+.descricao{
+    font-size: 2vh;
+}
