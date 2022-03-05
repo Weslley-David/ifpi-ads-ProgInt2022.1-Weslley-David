@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-color: aquamarine;
+}
+.titulo{
+    color: rgb(70, 80, 80);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*================================================================================================*/
+.box {
+    background: #ccc;
+    border-radius: 5px;
+    padding: 2vh;
+    margin: 2vh;
+  }
+
+.texto1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
