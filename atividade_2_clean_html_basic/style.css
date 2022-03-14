@@ -1,0 +1,34 @@
+*{
+    /*margin: 0;
+    padding: 0;*/
+    font-family: Helvetica, sans-serif;
+}
+h1{
+    background-color: blueviolet;
+    text-align: center;
+    color: #fff;
+    padding: 1vh;
+}
+h2{
+    padding: 5vh;
+    padding-left: 0;
+}
+p{
+    padding: 1vh;
+}
+footer{
+    background-color: blueviolet;
+    font-family: Courier, monospace, Arial;
+    
+}
+footer ul li a{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.citacoes{
+    background-color: rgba(150, 94, 255, 0.589);
+}
+.foto-joao{
+    width: 200px;
+    height: 200px;
+}
