@@ -1,0 +1,26 @@
+main, header, footer, aside { 
+	padding: 5px; 
+}*/
+
+/*aside {
+
+}*/
+.container {
+	border: 1px solid gray;
+}
+
+header {
+	background-color: lightgray;
+	border-bottom: 1px dotted gray;
+}
+
+/*footer { 
+	
+}*/
+
+.cor{
+	background-color: gray;
+}
+.dropdown{
+	list-style: none;
+}
