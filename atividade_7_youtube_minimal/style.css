@@ -1,0 +1,247 @@
+:root {
+    background-color: #141414;
+    --item-size: 40%;
+}
+
+@media (max-width: 700px) {
+    :root {
+        background-color: #141414;
+        --video: 100%;
+        --foto-tamanho: 40vw;
+        --item-size: 100%;
+    }
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #141414;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #303030;
+    border-radius: 15px;
+}
+
+body {
+    background-color: #141414;
+    color: white;
+}
+
+.publicidade {
+    text-align: center;
+    background-image: url('https://jmd.im/wp-content/uploads/2017/06/blackii_thumbnail.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 25vh;
+    padding: 7vh;
+}
+
+.publicidade h1 {
+    font-size: xx-large
+}
+
+.publicidade ul li {
+    padding: 5vh;
+}
+
+.publicidade ul li a {
+    background-color: #303030;
+    padding: 1.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s;
+}
+
+.publicidade ul li a:hover {
+    background-color: rgb(78, 78, 78);
+    color: rgb(255, 255, 255);
+}
+
+/*=====================================*/
+.pesquisa {
+    text-align: center;
+    margin: 3%;
+}
+
+.pesquisa input {
+    height: 10vh;
+    width: 70vw;
+    border: none;
+    background: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    font-size: x-large;
+    color: aliceblue;
+    transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s;
+    /*border-bottom: 1px solid #303030;*/
+}
+
+.pesquisa button {
+    font-size: large;
+    background: none;
+    border: none;
+    height: 10vh;
+    /*padding-left: 3%;
+    padding-right: 3%;*/
+    width: 10vh;
+    color: #ffffff;
+    background-color: #303030;
+    transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s;
+}
+
+.pesquisa button img{
+    width: 90%;   
+}
+.pesquisa button:hover {
+    background-color: rgb(78, 78, 78);
+}
+
+/*--------------------------------------*/
+
+.recomendation {
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 3vh;
+}
+
+.container {
+    background-color: rgb(0, 153, 69);
+    display: flex;
+    align-items: flex;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.item {
+    margin: 0;
+    background: none;
+    max-width: var(--item-size);
+    padding: 1%;
+    transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item:hover {
+    background-color: #303030;
+}
+
+.item h1 {
+    font-size: large;
+    text-indent: 3%;
+}
+
+.item h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.item p {
+    font-size: medium;
+    text-indent: 3%;
+    margin-top: 1%;
+}
+
+.item img {
+    float: left;
+    width: 35%;
+}
+
+.tag-list{
+    margin: 2vh 0vh 2vh 0vh;
+    display: flex;
+    align-items: flex;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    background: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /*border-top: solid 1px #ffffff;
+    border-bottom: solid 1px #ffffff;*/
+}
+.tag{
+    margin: 5px;
+    background-color: #303030;
+    max-width: var(--item-size);
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*border: solid 1px #ffffff;*/
+}
+.tag a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tag:hover{
+    background-color: #ffffff;
+}
+
+.tag a:hover{
+    color: #141414;
+}
+
+.select{
+    background-color: #ffffff;
+}
+.select a{
+    color: #141414;
+}
+
+.option{
+    background-color: red;
+}
+.loadmore{
+    padding: 5vh;
+    text-align: center;
+}
+
+.loadmore a{
+    background-color: rgb(0, 60, 255);
+    border-radius: 15px;
+    /*border: solid 1px white;*/
+    margin: 5vh;
+    padding: 2vh 3vh;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s;
+}
+
+
+.loadmore a:hover{
+    background-color: rgb(255, 255, 255);
+    color: #141414;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: right;
+    padding: 3%;
+    }
+.icon{
+    width: 10%;
+}
